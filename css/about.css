@@ -264,4 +264,138 @@ h1,h2,h3,h4,h5,h6,p{
   text-align: center;
 }
 
-/* ----------with part start---------- */
+/* ----------with part end---------- */
+
+/* ----------meet part start---------- */
+.team{
+  margin-top: 48px;
+}
+#meet{
+  background-color: #F4F6FC;
+  padding: 128px 0;
+}
+.meet-middle h3{
+  color: #282938;
+  font-weight: 600;
+  font-size: 48px;
+   font-family: "Poppins", sans-serif;
+
+}
+
+.meet-box {
+  background-color: white;
+  padding: 35px 64px;
+  margin-top: 30px;
+}
+.meet-box-text{
+  padding-top: 30px;
+}
+
+.meet-box{
+  position: relative;
+}
+.blue{
+ position: absolute;
+    background: linear-gradient(358deg,rgb(38, 42, 120) 12%, rgba(242, 248, 255, 0.301) 100%);
+    width: 168px;
+    height: 168px;
+    top: 35px;
+    left: 70px;
+    border-radius: 100%;
+    opacity: 0;
+    transition: .5s;
+    color: white;
+}
+.blue:hover{
+  opacity: 1;
+}
+.blue i{
+  margin-top: 127px;
+}
+/* ----------meet part end---------- */
+
+
+/* ----------footer part start---------- */
+#footer{
+  background-color: #1C1E53;
+  padding-top: 96px;
+  color: white;
+}
+
+.footer-left p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+  width: 399px;
+  padding-top: 22px;
+}
+
+.yellow-box{
+  display: flex;
+  gap: 30px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 37px;
+  padding-right: 137px;
+  background-color: #FCD980;
+  color: #282938;
+  margin-top: 86px;
+}
+.yellow-box .box-one h4{
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-right h2{
+  color: white;
+  font-weight: 600;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+}
+.footer-right p{
+  color: #F4F6FC;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+  width: 388px;
+  margin-top: 14px;
+}
+
+.icon i{
+  padding-left: 26px;
+  margin-top: 28px;
+}
+.book{
+  margin-left: 260px;
+}
+/* ----------footer part end---------- */
+
+
+
+#copyright{
+  padding-top: 32px;
+}
+
+.copy-left p{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.copy-right ul{
+  display: flex;
+  gap: 32px;
+}
+.copy-right ul li{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  
+}
